@@ -3,7 +3,8 @@ CSS Injection.
 
 # Classic
 ## Overview
-An example of CSS Injection using Recursive Import
+An example of a classic CSS Injection attack.
+The attacker needs to have the user POST the attack vector every time.
 
 
 ## Usage
