@@ -20,7 +20,7 @@ An example of CSS Injection using Recursive Import
 
 # Recursive
 ## Overview
-An example of CSS Injection using Recursive Import
+An example of CSS Injection using Recursive Import technique.
 
 ## Usage
 1. Run `attacker/server.py` and `user/server.py`.
