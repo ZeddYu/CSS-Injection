@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>c5517n (classic)</title>
+</head>
+
+<body>
+    <div style="text-align:center;">
+        <div>
+            <p>secret = e220929194af9599e46619a7e48f0d7703f620b8</p>
+            <input type="hidden" name="secret" value="e220929194af9599e46619a7e48f0d7703f620b8">
+        </div>
+
+        <hr>
+
+        <form action="/" method="POST">
+            <input type="text" name="data" style="width: 50%;">
+            <input type="submit" value="post">
+        </form>
+
+        <h1>Escaped</h1>
+        <div style="border: 1px solid black;">
+            {{ data }}
+        </div>
+
+        <h1>Not Escaped</h1>
+        <div style="border: 1px solid black;">
+            {{ data | safe }}
+        </div>
+    </div>
+</body>
+
+</html>
