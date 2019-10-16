@@ -31,3 +31,6 @@ An example of CSS Injection using Recursive Import
 - `user/server.py`: Mock web application that has CSS Injection vulnerability.
 - `attacker/server.py`: Webhook to collect secret.
 - `attacker/templates/tmpl.jinja2`: Attack vector(CSS) template.
+
+## Reference
+[m---/onsen](https://github.com/m---/onsen)
