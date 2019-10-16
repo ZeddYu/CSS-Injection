@@ -3,7 +3,7 @@ CSS Injection.
 
 ## Classic
 ### Overview
-An example of a classic CSS Injection attack.
+An example of a classical CSS Injection attack.
 The attacker needs to have the user POST the attack vector every time.
 
 
