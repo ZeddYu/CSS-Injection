@@ -1,6 +1,21 @@
 # c5517n
 CSS Injection.
 
+## Requirements
+```
+Click==7.0
+Flask==1.1.1
+itsdangerous==1.1.0
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+pyperclip==1.7.0
+Werkzeug==0.16.0
+```
+
+```sh
+pip install -r requirements.txt
+```
+
 ## Classic
 ### Overview
 An example of a classical CSS Injection attack.
